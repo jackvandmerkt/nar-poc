@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'nar-powerbi-poc'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6435efc69f27482c8ba74fcb9b09c511 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8ec6806c9dde4b6bb801edd47a89f78e }}
         package: ${{env.DOTNET_ROOT}}/myapp 
